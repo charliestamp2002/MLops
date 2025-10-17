@@ -1,0 +1,10 @@
+artifact_location: file:///Users/mitchellstamp/Documents/MLops/mlruns/666305585229072376/models/m-09ae7fcdeac640cea8afd53a2ee20c42/artifacts
+creation_timestamp: 1760283646153
+experiment_id: '666305585229072376'
+last_updated_timestamp: 1760283649721
+model_id: m-09ae7fcdeac640cea8afd53a2ee20c42
+model_type: null
+name: model
+source_run_id: fffd26acaaa74ac5931051c4e3e32c1a
+status: 2
+status_message: null

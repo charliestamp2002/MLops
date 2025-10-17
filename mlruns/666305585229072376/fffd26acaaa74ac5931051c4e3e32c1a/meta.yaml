@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mitchellstamp/Documents/MLops/mlruns/666305585229072376/fffd26acaaa74ac5931051c4e3e32c1a/artifacts
+end_time: 1760283649722
+entry_point_name: ''
+experiment_id: '666305585229072376'
+lifecycle_stage: active
+run_id: fffd26acaaa74ac5931051c4e3e32c1a
+run_name: LogReg_v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760283646140
+status: 3
+tags: []
+user_id: mitchellstamp

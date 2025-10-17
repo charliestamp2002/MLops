@@ -1,0 +1,6 @@
+artifact_location: file:///Users/mitchellstamp/Documents/MLops/mlruns/666305585229072376
+creation_time: 1760283645792
+experiment_id: '666305585229072376'
+last_update_time: 1760283645792
+lifecycle_stage: active
+name: Iris_Classification_Experiment
