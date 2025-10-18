@@ -4,6 +4,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import joblib
 import pandas as pd
+import os
+
 
 iris = load_iris()
 
@@ -20,9 +22,15 @@ print(f"Model accuracy: {acc:.4f}")
 
 #Save Predictions to CSV
 predictions_df = pd.DataFrame({"true": y_test, "predicted": y_pred})
+
+output_dir = "/app/outputs"
+os.makedirs(output_dir, exist_ok=True)
+
+predictions_path = os.path.join(output_dir, "predictions.csv")
+model_path = os.path.join(output_dir, "simple_logreg_model.joblib")
 predictions_df.to_csv("predictions.csv", index=False)
 print("Predictions saved to 'predictions.csv'")
 
 # Save the model
-joblib.dump(model, "simple_logreg_model.joblib")
+joblib.dump(model, model_path)
 print("Model saved to 'simple_logreg_model.joblib'")
